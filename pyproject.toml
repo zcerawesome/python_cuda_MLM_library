@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-network"
+version = "0.1.0"
+description = "Using Cuda Custom Neural Network"
+authors = ["zcerawesome <rishi.doddi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = ">=1.26"
+cupy-cuda12x = "^13.0.0"
+pandas = "^2.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
