@@ -1,4 +1,5 @@
 from .Network import *
+from .Alex import *
 import pandas as pd
 import cupy as cp
 import time
